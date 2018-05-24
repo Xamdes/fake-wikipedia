@@ -1,0 +1,29 @@
+body {
+  background-color: lightcyan;
+  font-family: serif;
+}
+
+.container-color {
+  color: black;
+  font-size: 1.5em;
+}
+
+.column-modifier {
+  background-color: azure;
+  color: black;
+  border-radius: 0em;
+  border-width: .3em;
+  padding: .3em;
+}
+
+.jumbo-modifier {
+  background-color: azure;
+  color: black;
+}
+
+.column-heading {
+  /*border-radius: 0em;*/
+  padding: .2em;
+  border-width: .1em;
+  border-style: solid;
+}
