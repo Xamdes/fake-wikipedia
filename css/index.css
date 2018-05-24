@@ -1,6 +1,19 @@
 body {
-  background-color: lightcyan;
+  background-color: white;
   font-family: serif;
+  font-size: 1em;
+}
+
+.header-border {
+  padding: .2em;
+  border-width: .1em;
+  border-style: solid;
+  background-color: #00e6ac;
+  border-color: darkgreen;
+}
+
+.row-padding {
+  padding: 0em;
 }
 
 .container-color {
@@ -17,7 +30,7 @@ body {
 }
 
 .jumbo-modifier {
-  background-color: azure;
+  background-color: white;
   color: black;
 }
 
@@ -26,4 +39,38 @@ body {
   padding: .2em;
   border-width: .1em;
   border-style: solid;
+}
+
+img {
+  max-height: 8em;
+  width: auto;
+}
+
+img.featured {
+  max-height: 16em;
+  width: auto;
+}
+
+img.float-left {
+  float: left;
+  padding-right: 1em;
+}
+
+img.float-right {
+  float: right;
+  padding-left: 1em;
+}
+
+.panel-padding {
+  padding: 0em;
+}
+
+.back_green {
+  background-color: #e6fffa;
+}
+.back_blue {
+  background-color: azure;
+}
+.back_purple {
+  background-color: mediumpurple;
 }
