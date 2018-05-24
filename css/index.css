@@ -74,3 +74,11 @@ img.float-right {
 .back_purple {
   background-color: mediumpurple;
 }
+
+.sidebar-border {
+  border-left: 2px;
+  padding: 3px;
+  border-width: 2px;
+  border-style: solid;
+  background-color: lightgrey;
+}
