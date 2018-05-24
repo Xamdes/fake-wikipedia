@@ -1,24 +1,27 @@
 body {
   background-color: white;
   font-family: serif;
-  font-size: 1em;
+  font-size: 1.5em;
+  color: black;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+h2 {
+  font-size: 1.2em;
 }
 
 .header-border {
   padding: .2em;
   border-width: .1em;
   border-style: solid;
-  background-color: #00e6ac;
-  border-color: darkgreen;
+  border-color: black;
 }
 
 .row-padding {
   padding: 0em;
-}
-
-.container-color {
-  color: black;
-  font-size: 1.5em;
 }
 
 .column-modifier {
@@ -30,7 +33,7 @@ body {
 }
 
 .jumbo-modifier {
-  background-color: white;
+  background-color: lightgrey;
   color: black;
 }
 
@@ -66,19 +69,37 @@ img.float-right {
 }
 
 .back_green {
-  background-color: #e6fffa;
+  background-color: #e6ffe6;
 }
 .back_blue {
   background-color: azure;
 }
 .back_purple {
-  background-color: mediumpurple;
+  background-color: #e6ccff;
+}
+h2.green{
+  background-color: #1aff66;
+}
+h2.blue{
+  background-color: #80ccff;
+}
+h2.purple{
+  background-color: #b366ff;
 }
 
 .sidebar-border {
-  border-left: 2px;
-  padding: 3px;
-  border-width: 2px;
-  border-style: solid;
+  border-width: thin;
+  border-right-style: solid;
   background-color: lightgrey;
+  text-align: center;
+}
+
+ul.no-bullets {
+  list-style-type: none;
+}
+
+.page-color {
+  background-color: white;
+  padding-left: 2em;
+  padding-right: 2em;
 }
