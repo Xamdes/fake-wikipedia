@@ -12,7 +12,7 @@ Create a website that copy's a website to practice bootstrap
 
 HTML, CSS, Bootstrap
 
-##installation
+## Installation
 Clone from https://github.com/Xamdes/fake-wikipedia.git
 or https://github.com/BatesColin/fake-wikipedia.git
 
